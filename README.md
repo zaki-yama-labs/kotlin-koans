@@ -73,3 +73,17 @@ when (x) {
   }
 }
 ```
+
+- Sealed classes
+  - [Sealed classes | Kotlin](https://kotlinlang.org/docs/sealed-classes.html)
+  - `sealed` をつけたクラスは 3rd-party のコードで継承できなくなる
+  - サブクラスのバリエーションがコンパイル時にわかるので、特に `when` で `else` が不要になる
+
+```kotlin
+fun log(e: Error) = when(e) {
+    is FileReadError -> { println("Error while reading file ${e.file}") }
+    is DatabaseError -> { println("Error while reading from database ${e.source}") }
+    RuntimeError ->  { println("Runtime error") }
+    // the `else` clause is not required because all the cases are covered
+}
+```

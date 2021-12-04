@@ -87,3 +87,7 @@ fun log(e: Error) = when(e) {
     // the `else` clause is not required because all the cases are covered
 }
 ```
+
+- Rename on import
+  - [Imports](https://kotlinlang.org/docs/packages.html#imports)
+  - `import xxx.yyy.ZZZ as AAA` で別名で import できる。TS と一緒

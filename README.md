@@ -15,9 +15,7 @@ You don't need this project if you want to solve the tasks. Install the educatio
 This project contains the task content, so please submit a new pull request if you want to contribute any changes
 to the existing or new tasks.
 
-## メモ
-
-### Introduction
+## Introduction
 
 - Named arguments, Default arguments
 - Triple-quoted strings
@@ -32,7 +30,7 @@ to the existing or new tasks.
     - `{ 引数1: 型1, 引数2: 型2, ... -> <expression> }`
   - [`any`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/any.html)
 
-### Classes
+## Classes
 
 - Data classes
   - [Classes | Kotlin](https://kotlinlang.org/docs/classes.html) 
@@ -55,5 +53,23 @@ class InitOrderDemo(name: String) {
     init {
         println("Second initializer block that prints ${name.length}")
     }
+}
+```
+
+- Smart casts
+  - [Smart casts](https://kotlinlang.org/docs/typecasts.html#smart-casts)
+  - [When expression](https://kotlinlang.org/docs/control-flow.html#when-expression)
+- smart casts
+  - `x is String` とかでコンパイラが勝手に型をキャストしてくれる
+- when expression
+  - [Rust の match](https://doc.rust-jp.rs/book-ja/ch06-02-match.html) みたい
+
+```kotlin
+when (x) {
+  1 -> print("x == 1")
+  2 -> print("x == 2")
+  else -> {
+    print("x is neither 1 nor 2")
+  }
 }
 ```

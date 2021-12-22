@@ -91,3 +91,7 @@ fun log(e: Error) = when(e) {
 - Rename on import
   - [Imports](https://kotlinlang.org/docs/packages.html#imports)
   - `import xxx.yyy.ZZZ as AAA` で別名で import できる。TS と一緒
+- Extension functions
+  - [Extensions | Kotlin](https://kotlinlang.org/docs/extensions.html#extension-functions)
+  - 継承とかを使わずに既存クラスの機能を拡張するしくみ
+  - `fun <クラス>.<メソッド> = ...`

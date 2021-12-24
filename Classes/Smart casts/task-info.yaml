@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 72
-    length: 10
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -13,8 +13,8 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 0jTQ2/y+bX7DpTLUxdQUmg==
-  - offset: 105
-    length: 34
+  - offset: 101
+    length: 6
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -29,8 +29,6 @@ files:
   visible: false
   encrypted_text: ITs8Nv8EH6QWJG5nufD7nKf4miLa5dzLLS2XlTof0JGHJM59oG3LTMziX2u9P6j/1UGq27I/AX+5xNLIGz3CWcyFsiiJRHD6CRPKKYYLaUoR3bstSe3yP/A037ELF03ZNdas1lllp2L76lt74KWv9/f1FZrGgfBCyDJ6hTbF5PEgY5xTaYMgR6DUaB1EpGacIcl0prmGu9JfJE7IY93vxBFDGDXVqGtOHIujxIDfXdhWD/f0YI8mxI3IarH793/2SbUrS7rAhd4pGqPuzElihI7fy8XEckULAuE7hlYw9onTFIcETKLrqzxgWVNeVCV7raR6n6hBEDgk6190/GnK/9eMUs7psEHtIQBX2ucFCC0tDvlPLmE3uFETyfyBkreTTaF6X7JePEYZ9kmSkcLERfLQAzIZ7WOORX0sj4N1RhAI5d48/6h+FX88ihIcPeXEvVLACHRM7Osh6HQTGfMPdoLNq7ihFM3ejEg/eJvrwdvM+hkOJX/iX82iz1wPkH05KiKyVYRrpqHHwl+xPhjTdKOEcUVZo4aDd9O1kXx6/fSWO8OfqyQoB0Jl2sNPdWXa1t3Zod+5tTBie1FPYynKOAXpwfRrBtMCOTurVsGJQHTdfqcxSyWjfXfQri0bYrzDPGzSA/cgp5FAaHqLXeIcQEq/pf0WgqR5USFG63b51Pcr3DorIp6FjnWSEueQ2KAQR0Pxih7WR8fkJCZf7W7epMU7ogAPzEW7m7VQ1khqAh+LzsR2+56DDzcyiuduAXfB
   learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Data+Classes+/+Smart+Casts
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Sat, 04 Dec 2021 17:49:49 UTC
 record: -1
